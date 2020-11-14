@@ -1,2 +1,4 @@
 Scans/*
 Cleaned_Data/*
+.gitignore
+.DS_Store
