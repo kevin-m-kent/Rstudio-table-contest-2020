@@ -6,6 +6,12 @@ In this project I took a modern take on the classic baseball card design. Given 
 
 This document is a high-level overview of my process and the main things I learned. If you are interested in more of the details, please check out the rest of this repository. 
 
+Key Docs:
+- [Grid process](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/grid_process.R) - this is where the meat of the image processing and ocr happens 
+- [Helper functions](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/helper_functions.R) - these assist in the image processing tasks
+- [Shiny app](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/app.R#L55) - app code (tables, sparklines, images, formatting)
+- [Shiny helper functions](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/shiny_helper_functions.R) - assist in data cleaning/organization for shiny app
+
 ## My Process
 
 1. Scan my entire 1998 Upper Deck Collection of 224 cards

@@ -78,7 +78,7 @@ player_choices <- setNames(player_name_key$NAME, player_name_key$NAME)
 
 player_name = 'Derek Jeter'
 
-# Define UI for application that draws a histogram
+# UI definition
 ui <- fluidPage(theme = shinytheme("flatly"),
 
     # Application title
@@ -96,7 +96,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                                                                htmlOutput("spark_table", width = 1)), textOutput("description")))))
             
                 
-# Define server logic required to draw a histogram
+# server logic 
 server <- function(input, output) {
     
     output$img <- renderImage({

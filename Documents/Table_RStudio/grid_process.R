@@ -6,52 +6,62 @@ library(Lahman)
 library(fuzzyjoin)
 source('helper_functions.R')
 
+
+# get lists of files that we are going to process
 all_grids <- list.files(here::here("Scans", "Grids", "UpperDeck_1998"))
+backs <- all_grids[str_detect(all_grids, "back")] # card backs
+fronts <- all_grids[str_detect(all_grids, "front")] # card fronts
 
-backs <- all_grids[str_detect(all_grids, "back")]
-
-fronts <- all_grids[str_detect(all_grids, "front")]
-
-x_inc <- 753
-y_inc <- 1050
-num_rows <- 2
+# card pixel-based characteristics 
+x_inc <- 753 #width of individual cards in a grid
+y_inc <- 1050 #height of individual cards in the grid
+num_rows <- 2 
 num_cols <- 4
 num_cards <- num_rows*num_cols
 y_positions <- c(rep(0, num_cols), rep(y_inc, num_cols))
 cols <- seq(0, num_cols -1, by = 1)
-
 locations <- tibble(x_inc = rep(x_inc, num_cards), y_inc = rep(y_inc, num_cards), 
        cols = rep(cols, num_rows), y_pos = y_positions)
-
+#putting it all together in the format that tesseract expects for cropping (extracting) part of an image
 crop_locations <- locations %>%
   mutate(x_pos = x_inc*cols) %>%
   str_glue_data("{x_inc}x{y_inc}+{x_pos}+{y_pos}")
 
+# read in all the front images, splitting grids into individual images
 front_images <- fronts %>%
   map(~ crop(., crop_locations)) %>%
   unlist(.)
 
+#read in all the back images, splitting grids into individual images
 back_images <- backs %>%
   map(~ crop(., crop_locations)) %>%
   unlist(.)
 
+# set engines for different purposes
+
+# only allow ing characters tha make sense for a table 
 eng_table <- tesseract(options = list(load_system_dawg =0, 
                                       load_freq_dawg = 0,
                                       tessedit_char_whitelist = " .0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
 
+# only allowing upper case letters since all names are represented that way
 eng_name <- tesseract(options = list(tessedit_char_whitelist = " ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
 
+# default for descripition since its a traditional, narrative text 
 eng_description <- tesseract()
 
+# get the names from each card (back of card - front is really hard to parse due to font and color/reflectiveness)
 names_list <- map(back_images, get_name) %>%
   str_extract(., "[A-Z]{3,} [A-Z]{3,}") 
   
+# get table data
 table_data <- map(back_images, get_table)
 
+# replace missing names with numbers, to allow other steps to proceed even with missing names
 num_missing <- sum(is.na(names_list))
-
 names_list[is.na(names_list)] <- seq(1, num_missing, by = 1)
 
+# 
 players <- as.data.frame(People) %>%
   mutate(debut = lubridate::ymd(debut)) %>%
   filter(between(lubridate::year(debut), 1960, 1998)) %>%
