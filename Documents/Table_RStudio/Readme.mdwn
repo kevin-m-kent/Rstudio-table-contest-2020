@@ -45,7 +45,7 @@ There were various pieces of information I decided to focus on extracting from t
 - Statistics (in tabular form)
 - Card narrative/description (usually a little bit on the bottom of the card about the the player)
 
-I wrote some [helper functions]('https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/helper_functions.R') to deal with each piece information in this list. In order to clean up the team names, player names, city/state information, I used David Robinson's [fuzzyjoin](https://github.com/dgrtwo/fuzzyjoin) package along with [Lahman](https://cran.r-project.org/web/packages/Lahman/Lahman.pdf) for baseball information to correct mispellings as best as I could. While this didn't catch everything, it ended up helping a lot with cleaning. 
+I wrote some [helper functions](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/helper_functions.R) to deal with each piece information in this list. In order to clean up the team names, player names, city/state information, I used David Robinson's [fuzzyjoin](https://github.com/dgrtwo/fuzzyjoin) package along with [Lahman](https://cran.r-project.org/web/packages/Lahman/Lahman.pdf) for baseball information to correct mispellings as best as I could. While this didn't catch everything, it ended up helping a lot with cleaning. 
 
 The output of this step was two dataframes - one for pitchers and one for position players (positions other than pitchers) with the information listed above. 
 
