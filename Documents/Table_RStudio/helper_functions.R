@@ -1,9 +1,13 @@
 ## Helper functions for image processing
 
+# Image cropping function for 2x4 scanning grid
+
 crop <- function(file, crop_locations) {
   
   map2(file, crop_locations, ~ image_crop(image_read(here::here("Scans", "Grids", "UpperDeck_1998", .x)), .y))
 }
+
+# 
 
 get_table <- function(image) {
   
