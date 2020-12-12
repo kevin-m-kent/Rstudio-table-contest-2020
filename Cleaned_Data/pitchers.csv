@@ -1,0 +1,407 @@
+id,W,L,ERA,G,GS,SV,IP,H,BB,K,team,year,name,position,HT,WT,Bats,Throws,DOB,Birth_location
+1,7,8,312,19,17,0,109.2,119,32,56,brewers,89,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,8,7,446,32,22,1,149.1,176,41,75,brewers,99,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,15,12,392,34,34,0,234.0,237,73,114,brewers,91,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,17,11,3.33,34,34,0,246.0,224,64,100,brewers,92,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,11,12,5.33,35,34,0,2141,254,73,114,brewers,93,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,4,9,6.62,29,10,0,892,115,35,65,brewers,94,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,144,6,328,29,29,0,2001,194,56,128,cubs,95,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,15,12,3.92,35,35,0,236.2,244,72,158,cubs,96,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,9,14,579,33,33,0,2092,267,73,142,white sox,97,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+1,8,16,636,37,27,1,1722,223,77,71,white sox,98,jaime navarro,pitcher,Ht: 6'4°, 230, R, R,3/27/68,"Bayamon, P "
+10,1,4,657,7,0,1,82,8,2,NA,angels,96,jason dickson,pitcher,"Ht: 6'0""", 202Ibs , L, R,3/30/73,"London, ON"
+10,1,4,657,7,0,1,82,8,2,NA,rangers,96,jason dickson,pitcher,"Ht: 6'0""", 202Ibs , L, R,3/30/73,"London, ON"
+10,13,9,4.29,33,32,0,2032,236,56,115,angels,97,jason dickson,pitcher,"Ht: 6'0""", 202Ibs , L, R,3/30/73,"London, ON"
+10,13,9,4.29,33,32,0,2032,236,56,115,rangers,97,jason dickson,pitcher,"Ht: 6'0""", 202Ibs , L, R,3/30/73,"London, ON"
+10,10,10,6.05,27,18,0,1220,147,41,61,angels,98,jason dickson,pitcher,"Ht: 6'0""", 202Ibs , L, R,3/30/73,"London, ON"
+10,10,10,6.05,27,18,0,1220,147,41,61,rangers,98,jason dickson,pitcher,"Ht: 6'0""", 202Ibs , L, R,3/30/73,"London, ON"
+11,9,6,298,16,16,0,1082,98,29,61,padres,94,joey hamilton,pitcher,NA,NA,NA,NA,NA,NA
+11,6,9,308,31,30,0,2041,189,56,123.,padres,95,joey hamilton,pitcher,NA,NA,NA,NA,NA,NA
+11,15,9,447,34,33,00,2112,206,83,184,padres,96,joey hamilton,pitcher,NA,NA,NA,NA,NA,NA
+11,12,7,425,31,29,0,1922,199,69,124,padres,97,joey hamilton,pitcher,NA,NA,NA,NA,NA,NA
+11,13,13,4.27,34,34,0,27.1,220,106,147,padres,98,joey hamilton,pitcher,NA,NA,NA,NA,NA,NA
+20,7,8,3.12,19,17,0,1092,119,32,56,brewers,89,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,8,7,446,32,22,1,149.1,176,41,75,brewers,90,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,15,12,3.92,34,34,0,2340,237,73,114,brewers,91,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,17,11,3.33,34,34,0,246.0,224,64,100,brewers,92,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,11,12,533,35,34,0,2141,254,73,114,brewers,93,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,4,9,662,29,10,0,892,115,35,6,brewers,94,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,14,6,328,29,29,0,2001,194,56,128,cubs,95,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,15,12,392,35,35,0,236.2,244,72,168,cubs,96,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,9,14,579,33,33,0,2092,267,73,142,white sox,97,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+20,8,16,6.36,37,27,1172.2,223,77,0,5,white sox,98,jaime navarro,pitcher,"Ht: 6'4""", 250 Ibs , R, R,3/27/68,"Bayamon, PR "
+21,1,5,5.37,18,8,0,57.0,59,27,30,rockies,93,curt leskanic,pitcher,"Ht: 6'0""", 186 Ibs , R, A,4/2/68,"Homestead, PA"
+21,1,1,564,8,3,0,221,27,10,172,rockies,94,curt leskanic,pitcher,"Ht: 6'0""", 186 Ibs , R, A,4/2/68,"Homestead, PA"
+21,6,3,340,76,0,10,980,83,33,107,rockies,95,curt leskanic,pitcher,"Ht: 6'0""", 186 Ibs , R, A,4/2/68,"Homestead, PA"
+21,7,5,623,70,0,6,732,82,38,76,rockies,96,curt leskanic,pitcher,"Ht: 6'0""", 186 Ibs , R, A,4/2/68,"Homestead, PA"
+21,4,0,555,55,0,2,581,59,24,53,rockies,97,curt leskanic,pitcher,"Ht: 6'0""", 186 Ibs , R, A,4/2/68,"Homestead, PA"
+29,8,9,627,31,20,1,1350,157,42,8,orioles,98,sidney ponson,pitcher,"Ht: 6'1""", 220ibs , R, R,11/2/76,"Noord, Aruba ee"
+30,0,0,338,9,0,09,134,12,4,3,phillies,86,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,3,10,420,55,7,1,1091,88,56,93,phillies,87,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,6,5,263,62,0,4,991,74,43,76,mariners,88,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,4,6,3.17,65,90,7,99.1,81,54,94,mariners,89,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,5,7,454,63,0,3,771,64,44,69,mariners,90,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,7,7,3.25,72,90,14,882,64,34,74,mariners,91,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,6,6,373,67,90,2,820,76,33,80,giants,92,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,6,6,303,81,0,1,771,58,24,70,giants,93,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,3,2,149,35,0,4,421,23,11,5,giants,94,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,6,1,239,40,0,2,490,38,19,41,reds,9,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,6,1,239,40,0,2,490,38,19,41,mets,9,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,1,1,363,73,90,6,72.0,61,2,0,mariners,96,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,2,5,3.24,71,40,15,750,59,2,7,indians,97,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+30,1,1,155,69,0,40,640,43,13,5,indians,98,mike jackson,pitcher,NA,NA,NA,NA,NA,NA
+33,0,2,831,3,3,0,130,23,6,6,yankees,92,sterling hitchcock,pitcher,"Ht: 6'0""", 205 Ibs , L, L,4/29/71,"Fayetteville, NC "
+33,1,2,465,6,6,0,310,32,14,25,yankees,93,sterling hitchcock,pitcher,"Ht: 6'0""", 205 Ibs , L, L,4/29/71,"Fayetteville, NC "
+33,4,1,420,23,5,2,491,48,29,37,yankees,94,sterling hitchcock,pitcher,"Ht: 6'0""", 205 Ibs , L, L,4/29/71,"Fayetteville, NC "
+33,11,10,4.70,27,27,0,168.1,155,68,121,yankees,95,sterling hitchcock,pitcher,"Ht: 6'0""", 205 Ibs , L, L,4/29/71,"Fayetteville, NC "
+33,13,9,535,35,35,0,196.2,245,73,132,mariners,96,sterling hitchcock,pitcher,"Ht: 6'0""", 205 Ibs , L, L,4/29/71,"Fayetteville, NC "
+33,10,11,520,32,28,0,161.0,172,55,106,padres,97,sterling hitchcock,pitcher,"Ht: 6'0""", 205 Ibs , L, L,4/29/71,"Fayetteville, NC "
+33,9,7,393,39,27,1,176.1,169,48,158,padres,98,sterling hitchcock,pitcher,"Ht: 6'0""", 205 Ibs , L, L,4/29/71,"Fayetteville, NC "
+35,10,3,299,23,23,0,138.2,98,66,123,blue jays,91,juan guzman,pitcher,"Ht: 5°71""", 195 Ibs , R, A,10/28/66,"Santo Domingo, B "
+35,16,5,264,28,28,0,180.2,135,72,165,blue jays,92,juan guzman,pitcher,"Ht: 5°71""", 195 Ibs , R, A,10/28/66,"Santo Domingo, B "
+35,14,3,399,33,33,0,221.0,211,110,194,blue jays,93,juan guzman,pitcher,"Ht: 5°71""", 195 Ibs , R, A,10/28/66,"Santo Domingo, B "
+35,12,11,568,25,25,0,147.1,165,76,124,blue jays,94,juan guzman,pitcher,"Ht: 5°71""", 195 Ibs , R, A,10/28/66,"Santo Domingo, B "
+35,4,14,632,24,24,0,135.1,151,73,94,blue jays,95,juan guzman,pitcher,"Ht: 5°71""", 195 Ibs , R, A,10/28/66,"Santo Domingo, B "
+35,3,6,495,13,13,0,600,48,1,82,blue jays,97,juan guzman,pitcher,"Ht: 5°71""", 195 Ibs , R, A,10/28/66,"Santo Domingo, B "
+41,1,4,914,6,5,0,212,34,12,10,royals,89,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,12,8,276,32,24,0,185.2,179,54,127,royals,90,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,13,10,342,34,31,0,207.2,205,61,158,royals,91,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,15,8,246,30,30,0,2081,167,68,150,royals,92,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,18,8,256,34,34,0,2382,183,81,186,royals,93,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,7,6,3.83,23,23,0,155.0,137,63,145,royals,94,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,15,10,389,31,31,0,2011,163,80,185,royals,95,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,14,11,3.62,32,32,0,2111,192,75,207,royals,96,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,9,13,340,34,34,0,235.2,215,74,196,royals,97,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+41,1,2,7.80,3,3,0,150,21,5,9,royals,98,kevin appier,pitcher,NA,NA,NA,NA,NA,NA
+43,2,4,554,9,9,0,501,55,33,20,braves,87,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,7,17,456,34,34,0,1951,201,63,84,braves,88,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,14,8,368,29,29,0,1860,172,40,90,braves,89,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,10,12,428,33,33,0,2141,232,78,129,braves,90,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,20,11,2.55,34,34,0,246.2,201,69,192,braves,91,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,20,8,276,33,33,0,2260,197,70,129,braves,92,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,22,6,320,36,36,0,2391,236,90,120,braves,93,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,.,13,9,397,25,25,0,1651,173,70,braves,94,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,16,7,3.08,29,29,0,1982,182,66,127,braves,95,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,15,10,2.98,36,36,0,235.1,222,85,181,braves,96,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,14,7,296,33,33,0,240.0,197,79,152,braves,97,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+43,20,6,247,33,33,0,2291,202,74,157,braves,98,tom glavine,pitcher,NA,NA,NA,NA,NA,NA
+46,0,1,606,4,1,0,161,21,10,11,indians,94,chad ogea,pitcher,"Ht: 6'2""", 220 Ibs , R, R,11/9/70,"Lake Charles, LA "
+46,8,3,305,20,14,0,1061,95,2,57,indians,95,chad ogea,pitcher,"Ht: 6'2""", 220 Ibs , R, R,11/9/70,"Lake Charles, LA "
+46,10,6,479,29,21,0,1462,151,42,101,indians,96,chad ogea,pitcher,"Ht: 6'2""", 220 Ibs , R, R,11/9/70,"Lake Charles, LA "
+46,8,9,499,21,21,0,126.1,139,47,80,indians,97,chad ogea,pitcher,"Ht: 6'2""", 220 Ibs , R, R,11/9/70,"Lake Charles, LA "
+46,5,4,561,19,9,0,690,74,2,3,indians,98,chad ogea,pitcher,"Ht: 6'2""", 220 Ibs , R, R,11/9/70,"Lake Charles, LA "
+51,4,2,488,9,9,00,480,42,24,34,brewers,98,rafael roque,pitcher,NA,NA,NA,NA,NA,NA
+52,4,4,323,10,8,0,552,62,16,21,brewers,83,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,2,2,529,8,6,0,321,38,10,23,brewers,84,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,16,12,3.57,36,34,0,252.1,234,106,167,indians,86,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,7,18,478,32,32,0,2012,193,93,111,indians,87,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,14,8,328,31,31,0,216.2,225,53,137,indians,8,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,13,10,3.10,31,31,0,2060,188,55,124,indians,89,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,15,11,365,31,29,0,2020,207,55,128,indians,90,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,11,15,300,32,30,0,2032,177,63,152,dodgers,92,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,8,10,3.12,33,32,0,2132,192,71,155,dodgers,93,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,7,7,442,23,22,0,163.0,149,54,102,dodgers,94,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,7,14,350,30,30,0,1901,187,558,141,dodgers,95,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,9,11,449,28,27,00,162.1,172,43,79,dodgers,96,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,10,7,360,41,18,0,135.0,128,40,89,dodgers,97,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+52,11,16,4.84,33,33,09,201.0,222,63,98,athletics,98,tom candiotti,pitcher,NA,NA,NA,NA,NA,NA
+54,7,1,191,69,NA,NA,NA,NA,NA,NA,athletics,99,dennis eckersley,pitcher,"Ht: 6'2""", 195, R, R,10/3/54,"Oakland, Calif   |"
+54,5,475,45,19,441,49043,47,NA,NA,NA,athletics,94,dennis eckersley,pitcher,"Ht: 6'2""", 195, R, R,10/3/54,"Oakland, Calif   |"
+54,4,416,1,392,4,22,0,5,NA,NA,red sox,88,dennis eckersley,pitcher,"Ht: 6'2""", 195, R, R,10/3/54,"Oakland, Calif   |"
+54,4,416,1,392,4,22,0,5,NA,NA,reds,88,dennis eckersley,pitcher,"Ht: 6'2""", 195, R, R,10/3/54,"Oakland, Calif   |"
+57,1,5,600,8,8,00,420,41,19,26,phillies,91,andy ashby,pitcher,"Ht: 6'5""", 190, R, R,7/11/87,"Kansas City, Mo"
+57,1,3,754,10,8,00,37.0,42,21,24,phillies,92,andy ashby,pitcher,"Ht: 6'5""", 190, R, R,7/11/87,"Kansas City, Mo"
+57,6,11,340,24,24,0,164.1,145,43,121,padres,94,andy ashby,pitcher,"Ht: 6'5""", 190, R, R,7/11/87,"Kansas City, Mo"
+57,12,10,294,31,31,0,1922,180,62,180,padres,95,andy ashby,pitcher,"Ht: 6'5""", 190, R, R,7/11/87,"Kansas City, Mo"
+57,9,5,323,24,24,09,1502,147,34,8,padres,96,andy ashby,pitcher,"Ht: 6'5""", 190, R, R,7/11/87,"Kansas City, Mo"
+57,9,11,413,30,30,0,2002,207,49,144,padres,97,andy ashby,pitcher,"Ht: 6'5""", 190, R, R,7/11/87,"Kansas City, Mo"
+57,17,9,3.34,33,33,0,226.2,223,58,161,padres,98,andy ashby,pitcher,"Ht: 6'5""", 190, R, R,7/11/87,"Kansas City, Mo"
+63,0,0,180,1,1,0,50,3,4,2,marlins,96,andy larkin,pitcher,Ht: 6’4”, 190, R, R,6/27/74,"Chelan, Wash  |"
+63,3,8,964,17,14,09,742,101,55,43,marlins,98,andy larkin,pitcher,Ht: 6’4”, 190, R, R,6/27/74,"Chelan, Wash  |"
+65,3,0,295,4,3,0,211,22,8,1,cardinals,98,jose jimenez,pitcher,"Ht: 6'3""", 190 Ibs , R, R,7/7/73,"San Pedro de Macoris, D "
+70,0,1,473,12,0,0,131,12,13,15,marlins,95,matt mantei,pitcher,Ht: 61”, 190 Ibs, R, R,7/7/73,"Tampa, FL "
+70,1,0,6.38,14,0,0,181,13,21,25,marlins,96,matt mantei,pitcher,Ht: 61”, 190 Ibs, R, R,7/7/73,"Tampa, FL "
+70,3,4,296,42,0,9,542,38,23,63,marlins,98,matt mantei,pitcher,Ht: 61”, 190 Ibs, R, R,7/7/73,"Tampa, FL "
+73,0,1,226,2,0,80,46,1,8,05,dodgers,92,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+73,10,5,261,6,2,2,1070,76,57,119,dodgers,93,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+73,11,5,9.42,24,23,1,1442,115,45,142,expos,94,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+73,14,10,351,30,30,0,1942,158,66,174,expos,95,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+73,13,10,3.70,33,33,0,2162,189,70,222,expos,96,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+73,17,8,190,31,31,0,241.1,158,67,305,expos,97,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+73,19,7,289,33,33,0,2332,188,67,251,red sox,8,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+73,19,7,289,33,33,0,2332,188,67,251,reds,8,pedro martinez,pitcher,"Ht: 5°11""", 170lbs , A, R,10/25/71,"Manoguayabo, D "
+75,3,1,3.18,21,1,0,28.1,21,10,28,dodgers,94,ISMREL URALDES,pitcher,"Ht: 6'3""", 215 Ibs , R, R,8/21/73,"Victoria, Mexico fi Wiese"
+75,13,11,3.05,33,27,1,197.2,168,51,150,dodgers,95,ISMREL URALDES,pitcher,"Ht: 6'3""", 215 Ibs , R, R,8/21/73,"Victoria, Mexico fi Wiese"
+75,15,7,3.32,33,33,0,225.0,219,54,173,dodgers,96,ISMREL URALDES,pitcher,"Ht: 6'3""", 215 Ibs , R, R,8/21/73,"Victoria, Mexico fi Wiese"
+75,10,11,265,30,30,0,196.2,171,47,140,dodgers,97,ISMREL URALDES,pitcher,"Ht: 6'3""", 215 Ibs , R, R,8/21/73,"Victoria, Mexico fi Wiese"
+75,11,10,3.98,27,27,0,174.0,171,66,122,dodgers,98,ISMREL URALDES,pitcher,"Ht: 6'3""", 215 Ibs , R, R,8/21/73,"Victoria, Mexico fi Wiese"
+78,0,1,6,4,06,5,NA,NA,NA,NA,phillies,83,scott service,pitcher,"Ht: 6°6""", 230 Ibs , R, R,2/26/67,"Cincinnati, OH"
+78,0,0,141445,0,0,70,15,5,11,6,expos,92,scott service,pitcher,"Ht: 6°6""", 230 Ibs , R, R,2/26/67,"Cincinnati, OH"
+78,6,4,348,73,0,4,822,70,34,5,royals,8,scott service,pitcher,"Ht: 6°6""", 230 Ibs , R, R,2/26/67,"Cincinnati, OH"
+79,14,12,356,32,32,0,202.0,195,65,152,devil rays,98,rolando arrojo,pitcher,"Ht: 6'4""", 215 Ibs , R, R,7/18/68,"Havana, Cuba nanan"
+87,1,6,458,11,11,0,590,62,31,44,tigers,96,justin thompson,pitcher,"Ht: 84""", 245 Ibs , L, L,3/8/73,"San Antonio, TX "
+87,15,11,302,32,32,0,2231,188,66,151,tigers,97,justin thompson,pitcher,"Ht: 84""", 245 Ibs , L, L,3/8/73,"San Antonio, TX "
+87,11,15,405,34,34,90,2220,227,79,149,tigers,98,justin thompson,pitcher,"Ht: 84""", 245 Ibs , L, L,3/8/73,"San Antonio, TX "
+98,12,12,392,29,29,0,181.1,190,74,115,angels,89,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,12,12,392,29,29,0,181.1,190,74,115,rangers,89,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,10,14,451,33,33,09,2112,246,72,105,angels,90,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,10,14,451,33,33,09,2112,246,72,105,rangers,90,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,18,11,289,934,34,0,2430,222,73,158,angels,91,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,18,11,289,934,34,0,2430,222,73,158,rangers,91,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,7,15,277,29,29,09,211.0,208,68,130,angels,92,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,7,15,277,29,29,09,211.0,208,68,130,rangers,92,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,11,14,437,32,32,0,2140,221,73,95,yankees,93,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,9,8,455,24,24,09,160.1,167,64,90,yankees,94,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,2,18,7.48,27,23,09,1420,58,.,NA,angels,96,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,2,18,7.48,27,23,09,1420,58,.,NA,rangers,96,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+98,6,0,455,5,5,0,312,214,NA,NA,white sox,98,5,pitcher,"Ht: 63""", 210lbs , L, L,9/19/67,"Flint, MI"
+105,2,4,591,9,8,0,452,58,21,6,indians,90,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,10,15,413,33,33,90,211.1,228,66,109,indians,91,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,17,10,296,33,33,0,252.0,245,57,169,indians,92,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,2,6,629,9,9,0,482,66,13,30,indians,93,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,10,8,49.45,23,23,0,169.1,175,48,108,indians,94,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,16,6,455,29,29,0,1780,194,61,139,indians,95,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,17,5,341,32,32,0,2220,217,61,167,indians,96,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,15,11,428,34,34,09,227.0,253,77,149,indians,97,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+105,15,10,522,33,33,0,210.1,250,66,120,indians,98,charles nagy,pitcher,"Ht: 8°83""", 200Ibs , L, R,5/5/67,"Fairfield, CT "
+110,0,0,579,4,0,0,591,13,3,7,orioles,96,esteban yan,pitcher,Ht: 6'4”, 220lbs , R, R,6/22/74,"Campina Del Sol, D "
+110,0,1,1582,3,2,0,92,20,7,4,orioles,97,esteban yan,pitcher,Ht: 6'4”, 220lbs , R, R,6/22/74,"Campina Del Sol, D "
+110,5,4,3.86,64,0,1,882,78,41,77,devil rays,98,esteban yan,pitcher,Ht: 6'4”, 220lbs , R, R,6/22/74,"Campina Del Sol, D "
+111,1,0,360,1,1,0,50,6,4,NA,angels,86,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,1,0,360,1,1,0,50,6,4,NA,rangers,86,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,1,1,424,4,4,9,231,33,8,12,angels,88,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,1,1,424,4,4,9,231,33,8,12,rangers,88,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,12,9,3.35,28,28,09,191.0,167,70,104,angels,80,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,12,9,3.35,28,28,09,191.0,167,70,104,rangers,80,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,12,10,3.60,26,26,0,180.0,175,60,88,angels,90,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,12,10,3.60,26,26,0,180.0,175,60,88,rangers,90,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,15,12,359,34,34,0,2330,228,74,142,angels,93,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,15,12,359,34,34,0,2330,228,74,142,rangers,93,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,7,9,482,26,2,0,1700,218,50,123,angels,94,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,7,9,482,26,2,0,1700,218,50,123,rangers,94,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,10,9,360,26,26,0,1721,155,48,117,orioles,95,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,17,11,1.89,32,32,0,1721,187,33,159,marlins,96,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,16,8,269,33,33,0,237.1,214,66,205,marlins,97,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+111,18,7,2.98,3635,0257.0,225,49257,6,NA,NA,padres,8,kevin brown,pitcher,"Ht: 6'4""", 200lbs , R, R,2/14/65,"Mcintyre, GA "
+113,2,1,345,62,0,1,622,53,30,34,cubs,91,heathcliff slocumb,pitcher,"Ht: 53""", 220lbs , R, R,6/7/66,"Jamaica, NY"
+113,0,3,650,30,1,30,2,2227,65.,NA,cubs,92,heathcliff slocumb,pitcher,"Ht: 53""", 220lbs , R, R,6/7/66,"Jamaica, NY"
+113,5,1,286,6,0,0,721,75,28,458,phillies,94,heathcliff slocumb,pitcher,"Ht: 53""", 220lbs , R, R,6/7/66,"Jamaica, NY"
+113,5,6,2.89,61,0,32,651,64,235,63,phillies,95,heathcliff slocumb,pitcher,"Ht: 53""", 220lbs , R, R,6/7/66,"Jamaica, NY"
+113,65,5,302,75,0,31,83.1,68,55,88,red sox,96,heathcliff slocumb,pitcher,"Ht: 53""", 220lbs , R, R,6/7/66,"Jamaica, NY"
+113,65,5,302,75,0,31,83.1,68,55,88,reds,96,heathcliff slocumb,pitcher,"Ht: 53""", 220lbs , R, R,6/7/66,"Jamaica, NY"
+113,2,5,532,67,0,3,672,72,44,51,mariners,98,heathcliff slocumb,pitcher,"Ht: 53""", 220lbs , R, R,6/7/66,"Jamaica, NY"
+116,6704505,16,16,0,87.1,107,42,6,NA,NA,cubs,86,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,12,15,510,35,33,0,2010,210,97,147,cubs,87,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,6,9103.4834,305,202.0,212,55,121,NA,NA,NA,cubs,8,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,4,9,496,15,15,0,76.0,84,33,44,angels,86,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,4,9,496,15,15,0,76.0,84,33,44,rangers,86,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,2,6,466,33,10,0,1021,115,39,58,angels,90,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,2,6,466,33,10,0,1021,115,39,58,rangers,90,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,0,5,574,8,7,0,311,38,16,20,cardinals,91,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,12,9,343,25,25,0,162.0,154,38,90,orioles,93,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,5,7,477,23,23,0,149.0,158,38,87,orioles,94,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,8,6,521,27,18,0,1152,117,30,65,orioles,95,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,17,5,386,30,30,0,188.2,187,43,113,mariners,97,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+116,15,9,3.53,34,34,0,234.1,234,42,158,mariners,98,jamie moyer,pitcher,"Ht: 6'0""", 170 Ibs , L, L,11/18/62,"Sellersville, PA"
+119,2,2,635,4,4,00,222,24,15,28,yankees,87,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,4,4,392,14,14,0,571,49,33,60,yankees,88,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,0,0,000,4,0,0,61,2,46,1,blue jays,90,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,0,0,2700,3,0,12,3,5,1,NA,blue jays,91,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,0,0,900,1,0,10,41,2,0,NA,blue jays,92,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,6,7,508,20,20,0,111.2,125,65,100,blue jays,94,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,11,11,3.64,28,28,0,183.0,162,108,153,blue jays,95,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,16,12,2.93,33,33,0,215.1,153,119,200,marlins,96,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,11,9,4.34,27,27,0,151.1,133,91,132,marlins,97,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,7,6,247,28,28,0,1930,151,71,174,reds,98,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+119,7,6,247,28,28,0,1930,151,71,174,mets,98,7,pitcher,"Ht: 6'3""", 220lbs , L, L,10/23/65,"Toms River, Nd  |"
+122,0,2,554,2,2,0,130,13,9,10,orioles,8,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,5,9,462,18,17,0,1031,97,64,70,orioles,89,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,11,11,4.34,31,31,0,1882,189,86,122,orioles,90,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,12,9,270,33,33,0,2162,189,83,172,astros,91,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,9,10,3.70,34,34,0,2062,182,64,164,astros,92,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,16,9,298,33,33,0,217.2,171,79,185,astros,93,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,8,5,540,17,17,0,95.0,100,39,62,astros,94,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,8,12,421,31,31,0,1942,195,61,114,reds,96,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,8,12,421,31,31,0,1942,195,61,114,mets,96,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,473.14,3232200.,1761,NA,NA,NA,NA,NA,NA,NA,reds,98,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+122,473.14,3232200.,1761,NA,NA,NA,NA,NA,NA,NA,mets,98,pete harnisch,pitcher,"Ht: 6'0""", 228lbs , R, R,9/23/66,"Commack, NY"
+125,0,0,1125,2,0,0,40,5,5,6,dodgers,94,8,pitcher,Ht: ger, 204lbs, R, Fi Born 8/80/78 Kong tu Oy Kore £ ie ite cal,NA,NA
+125,0,0,450,2,1,0,40,2,2,7,dodgers,95,8,pitcher,Ht: ger, 204lbs, R, Fi Born 8/80/78 Kong tu Oy Kore £ ie ite cal,NA,NA
+125,5,5,364,48,10,0,1082,82,71,119,dodgers,96,8,pitcher,Ht: ger, 204lbs, R, Fi Born 8/80/78 Kong tu Oy Kore £ ie ite cal,NA,NA
+125,14,8,3.38,32,29,09,192.0,149,70,166,dodgers,97,8,pitcher,Ht: ger, 204lbs, R, Fi Born 8/80/78 Kong tu Oy Kore £ ie ite cal,NA,NA
+125,15,9,371,34,34,0,2202,199,97,191,dodgers,98,8,pitcher,Ht: ger, 204lbs, R, Fi Born 8/80/78 Kong tu Oy Kore £ ie ite cal,NA,NA
+131,2,3,867,6,6,0,270,39,12,9,twins,95,latroy hawkins,pitcher,"Ht: 6'5""", 204lbs , R, R,12/21/72,"Gary, IN "
+131,1,1,820,7,6,0,21,42,9,4,twins,93,latroy hawkins,pitcher,"Ht: 6'5""", 204lbs , R, R,12/21/72,"Gary, IN "
+131,6,12,584,20,20,0,1031,134,47,58,twins,97,latroy hawkins,pitcher,"Ht: 6'5""", 204lbs , R, R,12/21/72,"Gary, IN "
+131,7,14,5.25,33,33,0,190.1,227,61,105,twins,8,latroy hawkins,pitcher,"Ht: 6'5""", 204lbs , R, R,12/21/72,"Gary, IN "
+134,6,3,462015,11,0,74.0,70285,6,NA,NA,angels,98,jarrod washburn,pitcher,"Ht: 61""", 200lbs , L, L,8/13/74,"La Croe, WI "
+134,6,3,462015,11,0,74.0,70285,6,NA,NA,rangers,98,jarrod washburn,pitcher,"Ht: 61""", 200lbs , L, L,8/13/74,"La Croe, WI "
+140,0,0,24,3,1,0,71,5,3,3,blue jays,91,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+140,5,2,536,28,2,0,50.1,49,32,39,blue jays,92,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+140,19,9,3.87,34,32,0,2161,215,74,122,blue jays,93,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+140,13,8,340,24,24,0,1742,158,59,147,blue jays,94,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+140,10,14,511,30,30,0,200.2,236,90,135,blue jays,95,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+140,20,10,3.22,35,35,0,2652,238,94,177,blue jays,96,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+140,15,10,3.68,35,35,0,2640,253,71,160,blue jays,97,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+140,12,11,517,29,29,0,177.2,208,69,94,blue jays,98,pat hentgen,pitcher,NA,NA,NA,NA,NA,NA
+141,0,0,1246,2,1,0,41,8,6,4,braves,89,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,4,7,317,36,0,7,481,43,24,39,braves,90,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,5,3.258,50,4,6,731,56,3,62,NA,braves,91,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,9,2,342,53,0,6,681,51,3,49,braves,92,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,3,1,286,43,6,0,66.0,52,36,59,braves,93,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,9,4,345,20,17,0,1121,90,45,111,braves,94,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,7,8,415,29,26,0,1430,140,61,102,braves,95,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,8,11,392,28,25,0,1442,135,62,75,reds,97,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,8,11,392,28,25,0,1442,135,62,75,mets,97,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+141,11,11,5.07,30,29,0,161.2,199,53,72,cardinals,98,kent mercker,pitcher,"Ht: 6'2""", 200 Ibs , L, L,2/1/88,"Dublin, OH "
+145,1,2,596,8,3,0,222,29,5,19,red sox,95,jeff suppan,pitcher,"Ht: 6'2""", 210 Ibs , R, R,1/2/75,"Oklahoma City, OK "
+145,1,2,596,8,3,0,222,29,5,19,reds,95,jeff suppan,pitcher,"Ht: 6'2""", 210 Ibs , R, R,1/2/75,"Oklahoma City, OK "
+145,7,3,569,23,22,0,1121,140,36,67,red sox,97,jeff suppan,pitcher,"Ht: 6'2""", 210 Ibs , R, R,1/2/75,"Oklahoma City, OK "
+145,7,3,569,23,22,0,1121,140,36,67,reds,97,jeff suppan,pitcher,"Ht: 6'2""", 210 Ibs , R, R,1/2/75,"Oklahoma City, OK "
+147,2,55,NA,NA,NA,NA,NA,NA,NA,NA,padres,9,matt clement,pitcher,"Ht: 6'3""", 195 Ibs , R, R,8/12/74,"McCandle Township, PA"
+149,0,0,556,1,0,0,222,29,13,21,royals,86,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,5,6,371,21,13,1,991,87,44,68,reds,87,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,5,6,371,21,13,1,991,87,44,68,mets,87,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,20,3,222,35,28,0,231.1,178,80,213,reds,88,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,20,3,222,35,28,0,231.1,178,80,213,mets,88,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,14,8,362,34,33,09,2192,183,74,190,reds,89,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,14,8,362,34,33,09,2192,183,74,190,mets,89,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,14,10,323,31,30,0,211.2,177,65,233,reds,90,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,14,10,323,31,30,0,211.2,177,65,233,mets,90,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,14,14,3.29,34,34,0,2322,204,73,241,reds,91,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,14,14,3.29,34,34,0,2322,204,73,241,mets,91,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,17,10,281,35,34,0,2492,201,111,261,mets,92,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,11,14,3.33,34,34,0,254.0,205,114,191,royals,93,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,16,5,294,23,23,0,1712,130,54,132,royals,94,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,7,2,288,11,11,0,720,50,34,71,yankees,96,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,12,6,282,29,29,09,195.0,155,86,222,yankees,97,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+149,20,7,3.55,31,31,0,207.2,186,59,209,yankees,88,david cone,pitcher,"Ht: 6'1""", 190Ibs , L, R,1/2/63,"Kansas City, MO "
+152,1,3,350,41,0,1,461,38,18,48,athletics,94,billy taylor,pitcher,NA,NA,NA,NA,NA,NA
+152,6,3,433,55,0,17,601,52,25,67,athletics,96,billy taylor,pitcher,NA,NA,NA,NA,NA,NA
+152,3,4,3.82,72,0,23,73.0,70,36,66,athletics,97,billy taylor,pitcher,NA,NA,NA,NA,NA,NA
+152,4,9,358,70,0,33,730,71,22,58,athletics,98,billy taylor,pitcher,NA,NA,NA,NA,NA,NA
+158,1,3,603,66,5,0,34,38,15,17,orioles,87,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,3,2,386,7,7,0,462,37,27,24,orioles,90,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,6,11,597,23,23,0,123.2,151,62,64,orioles,91,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,10,12,492,34,33,00,2082,232,62,118,indians,93,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,7,5,382,51,0,2,730,71,26,63,indians,94,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,3,0,113,62,0,46,640,49,17,58,indians,95,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,2,7,373,68,0,39,721,69,28,64,indians,96,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,4,4,240,66,0,16,821,83,28,69,indians,97,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+158,8,7,457,76,0,1,842,91,38,63,indians,93,jose mesa,pitcher,"Ht: 6°3""", 225ibs , R, R,5/22/66,"Azua, D "
+159,7,2,274,18,18,0,1112,100,48,93,red sox,93,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,7,2,274,18,18,0,1112,100,48,93,reds,93,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,8,7,383,22,22,0,1431,140,60,105,red sox,94,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,8,7,383,22,22,0,1431,140,60,105,reds,94,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,3,1,306,6,6,0,321,32,14,21,red sox,95,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,3,1,306,6,6,0,321,32,14,21,reds,95,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,7,11,532,29,29,0,157.1,192,67,137,red sox,96,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,7,11,532,29,29,0,157.1,192,67,137,reds,96,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,13,12,538,33,33,0,177.1,196,80,122,red sox,97,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,13,12,538,33,33,0,177.1,196,80,122,reds,97,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,19,11,4.23,33,33,0,2122,239,84,187,angels,98,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+159,19,11,4.23,33,33,0,2122,239,84,187,rangers,98,aaron sele,pitcher,NA,NA,NA,NA,NA,NA
+162,3,7,393,50,7,0,1182,118,46,83,angels,97,shigetoshi hasegawa,pitcher,"Ht: 5°14""", 171 Ibs , R," 8 Kobe, Japan arte ee",NA,NA
+162,3,7,393,50,7,0,1182,118,46,83,rangers,97,shigetoshi hasegawa,pitcher,"Ht: 5°14""", 171 Ibs , R," 8 Kobe, Japan arte ee",NA,NA
+162,8,3,314,61,0,5,071,86,32,73,angels,98,shigetoshi hasegawa,pitcher,"Ht: 5°14""", 171 Ibs , R," 8 Kobe, Japan arte ee",NA,NA
+162,8,3,314,61,0,5,071,86,32,73,rangers,98,shigetoshi hasegawa,pitcher,"Ht: 5°14""", 171 Ibs , R," 8 Kobe, Japan arte ee",NA,NA
+168,2,4,4.24,12,12,0,680,66,29,41,cardinals,97,manny aybar,pitcher,"Ht: 6'1""", 165lbs , R, R,10/5/74,"Bani, D "
+168,6,6,598,20,14,0,811,90,42,557,cardinals,98,manny aybar,pitcher,"Ht: 6'1""", 165lbs , R, R,10/5/74,"Bani, D "
+171,7,5,522,18,18,0,101.2,120,27,47,angels,94,brian anderson,pitcher,"Ht: 6'1""", 190, B, L,4/26/72,"Geneva, Ohio ident"
+171,7,5,522,18,18,0,101.2,120,27,47,rangers,94,brian anderson,pitcher,"Ht: 6'1""", 190, B, L,4/26/72,"Geneva, Ohio ident"
+171,646,8,4587,18,17,0,992,110,30,45,angels,95,brian anderson,pitcher,"Ht: 6'1""", 190, B, L,4/26/72,"Geneva, Ohio ident"
+171,646,8,4587,18,17,0,992,110,30,45,rangers,95,brian anderson,pitcher,"Ht: 6'1""", 190, B, L,4/26/72,"Geneva, Ohio ident"
+171,3,1,491,10,9,0,511,58,14,21,indians,96,brian anderson,pitcher,"Ht: 6'1""", 190, B, L,4/26/72,"Geneva, Ohio ident"
+171,4,2,469,8,8,0,480,55,11,2,indians,97,brian anderson,pitcher,"Ht: 6'1""", 190, B, L,4/26/72,"Geneva, Ohio ident"
+178,1,62,287,4,2,0,20,28,8,18,orioles,76,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,14,7,410,42,13,4,1870,157,64,107,orioles,77,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,16,11,352,40,38,0,2760,257,93,142,orioles,78,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,15,16,367,40,39,0,2970,279,78,132,orioles,79,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,6,4,396,25,12,1,1000,103,44,42,orioles,80,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,14,5,332,2,24,0,1790,173,62,89,orioles,81,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,16,12,421,40,39,0,2520,262,87,11,orioles,82,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,7,16,553,32,25,0,1530,209,45,71,orioles,83,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,86,9,502,34,20,0,1412,145,37,77,orioles,84,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,13,11,515,33,31,0,1800,203,63,8,orioles,85,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,41,4,330,22,22,0,1482,133,40,84,expos,87,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,15,13,272,34,34,0,2351,21,55,120,expos,88,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,16,7,318,34,33,0,2320,227,49,142,expos,89,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,10,11,295,32,32,0,2260,191,49,156,expos,90,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,14,11,239,31,31,0,220,17,2,13,expos,91,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,15,6,9,785,35,3412042,211,64,138,NA,expos,93,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,1,5,71,9,9,90,490,6,29,7,mariners,97,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,1,5,71,9,9,90,490,6,29,7,marlins,97,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+178,4,6445321010919,NA,NA,NA,NA,NA,NA,NA,NA,braves,98,dennis martinez,pitcher,"Ht: 6'1""", 180, A, R,5/14/55,"Grenada, Nicaragua pees"
+187,3,4,293,73,0,2,732,60,42,63,angels,89,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,3,4,293,73,0,2,732,60,42,63,rangers,89,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,10,6,343,69,3,15,97.2,93,42,74,angels,90,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,10,6,343,69,3,15,97.2,93,42,74,rangers,90,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,10,10,542,63,9,5,1092,121,61,73,angels,91,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,10,10,542,63,9,5,1092,121,61,73,rangers,91,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,3,6,309,81,0,6,782,80,26,70,angels,92,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,3,6,309,81,0,6,782,80,26,70,rangers,92,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,16,10,4.10,35,33,0,2081,210,71,140,angels,93,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,16,10,4.10,35,33,0,2081,210,71,140,rangers,93,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,11,8,446,24,24,0,167.1,169,52,120,angels,94,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,11,8,446,24,24,0,167.1,169,52,120,rangers,94,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,17,7,338,31,31,0,2080,192,76,140,angels,95,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,17,7,338,31,31,0,2080,192,76,140,rangers,95,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,12,8,468,30,30,0,1790,179,83,92,yankees,96,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,6,7,565,31,22,0,1450,161,62,78,yankees,97,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+187,16,8,3.17,34,34,0,238.2,215,67,138,athletics,98,kenny rogers,pitcher,"Ht: 61""", 205, L, L,11/10/64,"Savannah, Ga"
+192,13,17,4.34,933,33,0,2030,214,69,115,blue jays,90,TODD STOTTLEDIVAE,pitcher,"Ht: 6'3""", 200lbs , L, R,5/20/65,"Yakima, WA"
+192,12,11,450,28,27,0,1740,175,63,98,blue jays,92,TODD STOTTLEDIVAE,pitcher,"Ht: 6'3""", 200lbs , L, R,5/20/65,"Yakima, WA"
+192,11,12,484,30,28,0,1762,204,69,98,blue jays,93,TODD STOTTLEDIVAE,pitcher,"Ht: 6'3""", 200lbs , L, R,5/20/65,"Yakima, WA"
+192,7,7,422,26,19,1,140.2,149,48,105,blue jays,94,TODD STOTTLEDIVAE,pitcher,"Ht: 6'3""", 200lbs , L, R,5/20/65,"Yakima, WA"
+192,14,7,455,31,31,0,209.2,228,80,205,athletics,95,TODD STOTTLEDIVAE,pitcher,"Ht: 6'3""", 200lbs , L, R,5/20/65,"Yakima, WA"
+192,14,11,387,34,33,0,2231,191,93,194,cardinals,96,TODD STOTTLEDIVAE,pitcher,"Ht: 6'3""", 200lbs , L, R,5/20/65,"Yakima, WA"
+192,12,9,388,28,28,09,181.0,155,65,160,cardinals,97,TODD STOTTLEDIVAE,pitcher,"Ht: 6'3""", 200lbs , L, R,5/20/65,"Yakima, WA"
+194,1,0,360,1,1,0,50,6,9,4,angels,86,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,1,0,360,1,1,0,50,6,9,4,rangers,86,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,1,1,424,4,4,0,21,33,8,12,angels,88,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,1,1,424,4,4,0,21,33,8,12,rangers,88,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,12,9,3.35,28,28,0,191.0,167,70,104,angels,89,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,12,9,3.35,28,28,0,191.0,167,70,104,rangers,89,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,9,12,440,33,33,0,2102,233,90,96,angels,91,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,9,12,440,33,33,0,2102,233,90,96,rangers,91,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,21,11,3.32,35,35,0,2652,262,76,173,angels,92,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,21,11,3.32,35,35,0,2652,262,76,173,rangers,92,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,15,12,359,34,34,90,233.0,228,74,142,angels,93,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,15,12,359,34,34,90,233.0,228,74,142,rangers,93,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,7,9,482,26,25,0,170.0,218,50,123,angels,94,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,7,9,482,26,25,0,170.0,218,50,123,rangers,94,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,10,9,360,26,26,0,172.1,155,48,117,orioles,95,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,17,11,189,32,32,0,1721,187,33,159,marlins,96,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,16,8,269,33,33,0,237.1,214,66,205,marlins,97,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+194,18,7,238,36,35,0,257.0,225,49,257,padres,98,kevin brown,pitcher,Ht: 6'4°, 200, R, R,3/14/65,"Mcintyre, Ga  = esis"
+199,1,3,555,6,4,90,241,24,14,12,twins,8,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,6,10,431,27,15,1,1122,112,50,67,twins,86,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,1,3.6777,13,7,00,440,58,24,28,NA,twins,87,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,3,3,453,26,0,3,572,60,17,31,twins,88,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,7,1,275,20,15,0,1080,91,37,86,astros,89,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,11,10,362,32,32,0,1962,187,67,136,astros,90,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,10,12,449,32,27,1,168.1,163,59,120,astros,91,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,6,3,266,18,16,0,1011,76,41,62,astros,92,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,18,4,277,33,33,0,2080,194,77,131,astros,93,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,10,8,393,21,21,0,1371,135,45,87,giants,94,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,9,3.98,27,26,0,156.0,146,42,93,.,reds,96,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,9,3.98,27,26,0,156.0,146,42,93,.,mets,96,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,0,2,461,3,3,0,132,17,5,2,phillies,97,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+199,10,5,444,26,26,0,166.1,186,32,104,phillies,98,mark portugal,pitcher,"Ht: 6'0""", 190ibs , R, R,10/30/62,"Los Angeles, CA"
+210,2,3,509,47,0,0,351,36,21,19,dodgers,93,omar daal,pitcher,"Ht: 6'3""", 195 lbs , L, L,2/23/72,"Maracaibo, Venezuela Fmenteln"
+210,0,0,329,24,0,0,132,12,5,9,dodgers,94,omar daal,pitcher,"Ht: 6'3""", 195 lbs , L, L,2/23/72,"Maracaibo, Venezuela Fmenteln"
+210,4,90,7.20,28,0,0,200,29,15,11,dodgers,95,omar daal,pitcher,"Ht: 6'3""", 195 lbs , L, L,2/23/72,"Maracaibo, Venezuela Fmenteln"
+210,4,65,402,64,6,0,871,74,37,82,expos,96,omar daal,pitcher,"Ht: 6'3""", 195 lbs , L, L,2/23/72,"Maracaibo, Venezuela Fmenteln"
+210,2,3,7.06,42,3,1,571,82,21,44,expos,97,omar daal,pitcher,"Ht: 6'3""", 195 lbs , L, L,2/23/72,"Maracaibo, Venezuela Fmenteln"
+214,7,15,3.80,33,33,0,196.2,186,99,112,cardinals,89,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+214,5,6,549,17,14,0,782,79,33,58,cardinals,90,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+214,11,10,3.57,30,30,0,181.1,147,67,121,cardinals,91,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+214,16,9,268,33,33,0,2180,187,75,150,expos,92,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+214,9,7,323,28,28,0,1832,163,74,90,expos,93,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+214,16,5,3.32,23,23,0,1542,145,44,85,expos,94,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+214,16,10,93.63,35,35,09,2502,250,95,170,angels,96,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+214,16,10,93.63,35,35,09,2502,250,95,170,rangers,96,ken hill,pitcher,"Ht: 6'2"""," 200lbs,", R, R,12/14/65,"Lynn, MA "
+215,3,2,290,27,0,14,310,28,19,36,blue jays,97,kelvim escobar,pitcher,"Ht: 611""", 195lbs , R, R,4/11/76,"La Guaria, Venezuela Piasnce 3"
+215,7,3,3.73,22,10,0,792,72,35,72,blue jays,98,kelvim escobar,pitcher,"Ht: 611""", 195lbs , R, R,4/11/76,"La Guaria, Venezuela Piasnce 3"
+224,4,6,461,22,21,0,1411,99,64,102,marlins,97,tony saunders,pitcher,"Ht: 6'2""", 205 Ibs , L, L,4/29/74,"Baltimore, MD "
+224,6,15,412,31,31,0,1921,191,111,172,devil rays,98,tony saunders,pitcher,"Ht: 6'2""", 205 Ibs , L, L,4/29/74,"Baltimore, MD "

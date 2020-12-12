@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606078741425.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "82DA4A3B",
+    "lastKnownWriteTime" : 140664846352208,
+    "last_content_update" : 1606078741425,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "528eff65c14a4144b3c410ba9ec99d87",
+        "name" : "away_players",
+        "title" : "away_players"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

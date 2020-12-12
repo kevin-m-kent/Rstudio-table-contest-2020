@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606078205223.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "13AE8D43",
+    "lastKnownWriteTime" : 4317421820,
+    "last_content_update" : 1606078205223,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "7fb1072f538a4cdf8cad80d6c1179a48",
+        "name" : "home_players",
+        "title" : "home_players"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605330543354.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "333048791",
+    "id" : "55C3926D",
+    "lastKnownWriteTime" : 1607779190,
+    "last_content_update" : 1607779190878,
+    "path" : "~/Documents/rstudio_contest_table_2020/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "233,35",
+        "scrollLine" : "229"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

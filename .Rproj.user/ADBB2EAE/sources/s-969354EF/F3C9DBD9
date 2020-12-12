@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605330669142.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F3C9DBD9",
+    "lastKnownWriteTime" : 1605325813,
+    "last_content_update" : 1605325813,
+    "path" : "~/Documents/rstudio_contest_table_2020/shiny_helper_functions.R",
+    "project_path" : "shiny_helper_functions.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

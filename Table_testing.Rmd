@@ -1,0 +1,179 @@
+---
+title: "Gt Testing"
+author: "Kevin Kent"
+date: "11/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r}
+library(tidyverse)
+library(gt)
+library(tesseract)
+library(magick)
+library(stringr)
+library(sparklines)
+```
+
+# Front Images
+
+```{r}
+
+all_grids <- list.files(here::here("Scans", "Grids", "UpperDeck_1998"))
+
+backs <- all_grids[str_detect(all_grids, "back")]
+
+fronts <- all_grids[str_detect(all_grids, "front")]
+
+size <- "753x1050"
+
+x_inc <- 753
+y_inc <- 1050
+num_rows <- 2
+num_cols <- 4
+num_cards <- num_rows*num_cols
+y_positions <- c(rep(0, num_cols), rep(y_inc, num_cols))
+cols <- seq(0, num_cols -1, by = 1)
+
+locations <- tibble(x_inc = rep(x_inc, num_cards), y_inc = rep(y_inc, num_cards), 
+       cols = rep(cols, num_rows), y_pos = y_positions)
+
+crop_locations <- locations %>%
+  mutate(x_pos = x_inc*cols) %>%
+  str_glue_data("{x_inc}x{y_inc}+{x_pos}+{y_pos}")
+
+front_images <- fronts %>%
+  map(~ map2(., crop_locations, ~ image_crop(image_read(here::here("Scans", "Grids", "UpperDeck_1998", .x)), .y))) %>%
+  unlist(.)
+```
+
+# Read Cleaned Tables
+
+```{r}
+pitchers <- read_csv(here::here("Cleaned_Data", "pitchers.csv")) %>%
+  mutate(team = str_to_title(team)) %>%
+  select(-description)
+
+names(pitchers) <- toupper(names(pitchers))
+
+position_players <- read_csv(here::here("Cleaned_Data", "position_players.csv")) %>%
+  mutate(team = str_to_title(team))%>%
+  select(-description)
+
+names(position_players) <- toupper(names(position_players))
+
+descriptions <- read_csv(here::here("Cleaned_Data", "description_clean.csv"))
+
+player_name_key <- read_csv(here::here("Cleaned_Data", "player_name_card_key.csv")) %>%
+  left_join(descriptions)
+
+names(player_name_key) <- toupper(names(player_name_key))
+
+```
+
+Let's also get the position type of each player.
+
+```{r}
+
+pitchers_unique <- pitchers %>% 
+  select(NAME) %>%
+  distinct() %>%
+  mutate(position = "pitcher") 
+
+position_players_unique <- position_players %>%
+  select(NAME) %>%
+  distinct() %>%
+  mutate(position = "position_player")
+
+all_players_position <- pitchers_unique %>%
+  bind_rows(position_players_unique)
+
+player_name_key <- player_name_key %>%
+  left_join(all_players_position)
+
+```
+
+## Let's try to create baseball card table for one player.
+
+
+```{r}
+
+selection <- 1
+
+image <- front_images[[selection]]
+
+player <- player_name_key %>%
+  filter(ID == selection) 
+
+pos <- player$position[1]
+
+player_name <- str_to_title(player$NAME[1])
+
+description <- player$DESCRIPTION[1]
+
+
+if (pos == 'pitcher') {
+  
+  meta_info <- pitchers %>%
+    filter(NAME == tolower(player_name)) %>%
+    select(HT, WT, BATS, THROWS, DOB, BIRTH_LOCATION) %>%
+    distinct() %>%
+    slice(1:1) %>%
+    mutate(all_info = str_glue("{HT} WT: {WT} BATS: {BATS} THROWS: {THROWS} DOB: {DOB} Birth Location: {BIRTH_LOCATION}"))
+  
+  characteristics <- meta_info$all_info[1]
+  
+pitchers_clean <-  pitchers %>%
+    filter(NAME == tolower(player_name)) %>%
+    distinct() %>%
+    select(-HT, -WT, -BATS, -THROWS, -DOB, -BIRTH_LOCATION) %>%
+    arrange(YEAR) %>%
+    select(-NAME, -POSITION, -ID) %>%
+    relocate(any_of(c("YEAR", "TEAM"))) 
+
+pitchers_clean %>%
+      gt() %>%
+      tab_header(title = player_name, subtitle = characteristics) %>%
+      tab_options( column_labels.background.color = "gray") %>%
+  opt_table_font(
+    font = list(
+      google_font(name = "Goldman"),
+      "Cochin", "Serif"
+    )
+  )
+
+summary_spk <- pitchers_clean %>%
+  select(-TEAM, -YEAR) %>%
+  mutate_all(as.numeric) %>%
+  summarise_all(spk_chr, type = "line") %>%
+  mutate(YEAR = "TOTALS", TEAM = "") %>%
+  relocate(any_of(c("YEAR", "TEAM")))
+
+summary_names <- tibble(names = rep('&nbsp', 12), mult = seq(1, 12, by = 1)) %>%
+  mutate(name_full = map2(names, mult, ~ paste0(rep(.x, .y), collapse = "")))
+
+names(summary_spk) <- summary_names$name_full
+
+summary_spk %>%
+   formattable() %>%
+    formattable::as.htmlwidget() %>%
+    spk_add_deps()
+   
+  
+  
+}
+
+
+
+
+```
+
+
+
+

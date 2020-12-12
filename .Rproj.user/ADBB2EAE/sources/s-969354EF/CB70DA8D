@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605751519392.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CB70DA8D",
+    "lastKnownWriteTime" : 1,
+    "last_content_update" : 1605751519392,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "80A8B28",
+        "caption" : "mini_lines_df",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=mini_lines_df&cache_key=80A8B28",
+        "displayedObservations" : 10,
+        "environment" : "",
+        "expression" : "mini_lines_df",
+        "object" : "mini_lines_df",
+        "preview" : 0,
+        "totalObservations" : 10,
+        "variables" : 1
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

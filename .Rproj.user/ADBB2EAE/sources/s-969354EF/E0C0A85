@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606077573163.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E0C0A85",
+    "lastKnownWriteTime" : 1606079375,
+    "last_content_update" : 1606079375533,
+    "path" : "~/Documents/rstudio_contest_table_2020/bb_code_refactor.R",
+    "project_path" : "bb_code_refactor.R",
+    "properties" : {
+        "cursorPosition" : "23,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
