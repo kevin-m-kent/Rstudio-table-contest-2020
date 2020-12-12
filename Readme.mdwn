@@ -10,7 +10,7 @@ Key Docs:
 - [Grid process](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/grid_process.R) - this is where the meat of the image processing and ocr happens 
 - [Helper functions](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/helper_functions.R) - these assist in the image processing tasks
 - [Shiny app](hhttps://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/app.R) - app code (tables, sparklines, images, formatting)
-- [Shiny helper functions](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/shiny_helper_functions.R) - assist in data cleaning/organization and visualization for shiny app. This is where the core of the table visualization code is contained. 
+- [Shiny helper functions](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/helper_functions.R) - assist in data cleaning/organization and visualization for shiny app. This is where the core of the table visualization code is contained. 
 
 ## My Process
 
