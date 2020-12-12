@@ -1,0 +1,13 @@
+name: table_rstudio
+title:
+username:
+account: kent-m-kent
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3230492
+bundleId: 3979225
+url: https://kent-m-kent.shinyapps.io/table_rstudio/
+when: 1607779270.78567
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app_2.R

@@ -1,0 +1,68 @@
+# The Modern Baseball Card - RStudio Table Contest Submission 2020
+
+**Author**: Kevin Kent
+
+In this project I took a modern take on the classic baseball card design. Given the focus of this RStudio contest on tables, I wanted to explore what was likely the first table of statistics that I ever encountered and learn a bit about R's fabulous table packages along the way. It also gave me a great excuse to dig up some old baseball cards! 
+
+This document is a high-level overview of my process and the main things I learned. If you are interested in more of the details, please check out the rest of this repository. 
+
+Key Docs:
+- [Grid process](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/grid_process.R) - this is where the meat of the image processing and ocr happens 
+- [Helper functions](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/helper_functions.R) - these assist in the image processing tasks
+- [Shiny app](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/app.R#L55) - app code (tables, sparklines, images, formatting)
+- [Shiny helper functions](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/shiny_helper_functions.R) - assist in data cleaning/organization and visualization for shiny app. This is where the core of the table visualization code is contained. 
+
+## My Process
+
+1. Scan my entire 1998 Upper Deck Collection of 224 cards
+2. Process the images and extract text 
+- [Magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html)
+- [Tesseract](https://cran.r-project.org/web/packages/tesseract/vignettes/intro.html) 
+3. Create a new baseball card design using this extracted data, deploy on Shiny App 
+- [Gt](https://gt.rstudio.com/)
+- [Formattable](https://cran.r-project.org/web/packages/formattable/formattable.pdf)
+   - This [github thread](https://github.com/renkun-ken/formattable/issues/89) was extremely helpful for getting formattable + shiny + sparklines working together
+
+***lace output here of shiny dashboard****
+
+### Step One: Scanning
+
+At first this was kind of laborious; scanning cards one at a time, naming the folders, making sure the images were cropped perfectly. A large part of this initial phase was also figuring out what settings would be the best balance of speed and quality, in terms of how the Magick and Tesseract best handle images. 
+
+There were a bunch of resources that helped me along the way, but [this guide to improving recognition quality](https://tesseract-ocr.github.io/tessdoc/ImproveQuality.html) from the tesseract development team made a big difference. That guide helped me identify that scaling and dictionary configurations were going to improve the recognition quality by a lot. It also points out that tables are notoriously hard to do OCR on with Tesseract, which made me feel a lot better about my numerous early struggles. I ended up using very different settings for the various pieces of information I was trying to extract from the card. For the tabular information, I restricted the dictionary to numbers and uppercase letters so that it wouldn't think there were random symbols that couldn't possibly be present. I also turned off the default dictionary, since the guide points out that Tesseract is trained on writing with sentences, paragraphs, etc. For the description section I did keep the default dictionary on, since that was closer to the text that Tesseract was meant for. 
+
+Here is the back of one card to give a sense for the challenges here: 
+
+!['sample card'](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/sample_back.jpg "Sample Card")
+
+The main characertistic that makes this non-trivial, is the different backgrounds and text color. If you change the contrast or make certain colors appear more strongly, you will likely make some areas of the card harder and some easier to read with Tesseract. This is why I ended up extracting those different pieces of information separately. 
+
+After figuring out the scanning settings and how Tesseract and Magick work best, I moved to scanning the cards in grids of eight in order to speed up the process. I also decided I would leave the labeled of the cards to the OCR process, instead of manually naming the files with the player names. Here is an example of a front grid:
+
+!['grid sample'](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/sample_grid.jpg "Grid Sample")
+
+### Step Two: Image Processing and Text Extraction
+
+With all of the cards in grids of eight, I had to extract each card in the grid so I could process the text and label them individually. With Magick this is relatively straightforward since all of the grids have the same coordinates and positions of the cards. I aligend the front and back scans so that they would be scanned in the same order and thus easy to match up. 
+
+There were various pieces of information I decided to focus on extracting from the card:
+- Name
+- Position
+- Metadata (height, weight, DOB, etc)
+- Statistics (in tabular form)
+- Card narrative/description (usually a little bit on the bottom of the card about the the player)
+
+I wrote some [helper functions](https://github.com/kevin-m-kent/Table-Rstudio2020/blob/20200815-Readme/Documents/Table_RStudio/helper_functions.R) to deal with each piece information in this list. In order to clean up the team names, player names, city/state information, I used David Robinson's [fuzzyjoin](https://github.com/dgrtwo/fuzzyjoin) package along with [Lahman](https://cran.r-project.org/web/packages/Lahman/Lahman.pdf) for baseball information to correct mispellings as best as I could. While this didn't catch everything, it ended up helping a lot with cleaning. 
+
+The output of this step was two dataframes - one for pitchers and one for position players (positions other than pitchers) with the information listed above. 
+
+### Step Three: Baseball card table creation
+
+I experimented around in this phase with many of the packages mentioned in the RStudio table contest before settling on using GT and Formattable. I chose GT because it provided control over the components of the table that were closest to the structure of a baseball card. With the basic styling offered by GT, I also thought it looked the best 'out of the box'. I used GT for the main table, which was a direct translation from the baseball card. 
+
+To provide a modern twist on the baseball card, I wanted to include some interactive graphs and was inspired by the sparkline examples in the [KableExtra documentation](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html). However, the examples with the default KableExtra sparkline functions or the html integrations didn't work for me, so I moved to Formattable which worked beautifully. I am still not sure if this was a OS or environment specific issue, but I hope to figure it out in the future. This provided the sparkline summary table line at the bottom of the baseball statistics table. I thought originally that maybe there was a way to integrate it into the same table, but the conflicting types of the numeric statistics and the html sparkline code ended up being a deal-breaker for the amount of time I had to work on this. 
+
+The final step was integrating this into a Shiny app, to share the project and allow anyone to flip through the different players and the OCR results for each card. I'd love to hear what you think about this project! Please reach out to me on [Twitter](twitter.com/kevin_m_kent). 
+
+
+
