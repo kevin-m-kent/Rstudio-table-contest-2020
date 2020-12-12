@@ -64,7 +64,7 @@ I experimented around in this phase with many of the packages mentioned in the R
 
 To provide a modern twist on the baseball card, I wanted to include some interactive graphs and was inspired by the sparkline examples in the [KableExtra documentation](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html). However, the examples with the default KableExtra sparkline functions or the html integrations didn't work for me, so I moved to Formattable which worked beautifully. I am still not sure if this was a OS or environment specific issue, but I hope to figure it out in the future. This provided the sparkline summary table line at the bottom of the baseball statistics table. I thought originally that maybe there was a way to integrate it into the same table, but the conflicting types of the numeric statistics and the html sparkline code ended up being a deal-breaker for the amount of time I had to work on this. 
 
-The final step was integrating this into a Shiny app, to share the project and allow anyone to flip through the different players and the OCR results for each card. I'd love to hear what you think about this project! Please reach out to me on [Twitter](twitter.com/kevin_m_kent). 
+The final step was integrating this into a Shiny app, to share the project and allow anyone to flip through the different players and the OCR results for each card. I'd love to hear what you think about this project! Please reach out to me on [Twitter](http://www.twitter.com/kevin_m_kent). 
 
 
 
