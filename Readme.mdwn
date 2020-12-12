@@ -12,6 +12,10 @@ Key Docs:
 - [Shiny app](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/app.R) - app code (tables, sparklines, images, formatting)
 - [Shiny helper functions](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/helper_functions.R) - assist in data cleaning/organization and visualization for shiny app. This is where the core of the table visualization code is contained. 
 
+[Shiny App](https://kent-m-kent.shinyapps.io/table_rstudio/)
+
+!['apple sample'](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/app_sample.jpg "app sample")
+
 ## My Process
 
 1. Scan my entire 1998 Upper Deck Collection of 224 cards
