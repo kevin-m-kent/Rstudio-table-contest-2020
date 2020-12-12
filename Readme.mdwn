@@ -14,7 +14,7 @@ Key Docs:
 
 [Shiny App](https://kent-m-kent.shinyapps.io/table_rstudio/)
 
-!['apple sample'](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/app_sample.jpg "app sample")
+!['app sample'](https://github.com/kevin-m-kent/Rstudio-table-contest-2020/blob/master/app_sample.png "app sample")
 
 ## My Process
 
