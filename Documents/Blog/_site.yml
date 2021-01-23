@@ -1,0 +1,14 @@
+name: "Blog"
+title: "Data Ramblings"
+description: |
+  Random data science and complexity tidbits. 
+base_url: https://kevin-m-kent.netlify.com
+output_dir: "_site"
+navbar:
+  logo: images/icon.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

@@ -1,0 +1,27 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-01-23T10:47:09-05:00"
+    },
+    {
+      "path": "gallery.html",
+      "title": "Gallery of featured posts",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-01-23T10:47:09-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Data Ramblings",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-01-23T10:47:10-05:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

@@ -1,0 +1,6 @@
+---
+title: "Gallery of featured posts"
+listing:
+  posts:
+    2021-01-23-counting-in-time-intervals
+---

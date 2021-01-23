@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Data Ramblings</title>
+    <link>https://kevin-m-kent.netlify.com</link>
+    <atom:link href="https://kevin-m-kent.netlify.com/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Random data science and complexity tidbits. 
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Welcome to Data Ramblings</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://kevin-m-kent.netlify.com/posts/welcome</link>
+      <description>Welcome to our new blog, Data Ramblings. We hope you enjoy 
+reading what we have to say!</description>
+      <guid>https://kevin-m-kent.netlify.com/posts/welcome</guid>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Counting in Time Intervals</title>
+      <dc:creator>Kevin Kent</dc:creator>
+      <link>https://kevin-m-kent.netlify.com/posts/2021-01-23-counting-in-time-intervals</link>
+      <description>Tackling the common task of counting concurrent events with start and end times in R.</description>
+      <guid>https://kevin-m-kent.netlify.com/posts/2021-01-23-counting-in-time-intervals</guid>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://kevin-m-kent.netlify.com/posts/2021-01-23-counting-in-time-intervals/counting-in-time-intervals_files/figure-html5/unnamed-chunk-4-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+  </channel>
+</rss>

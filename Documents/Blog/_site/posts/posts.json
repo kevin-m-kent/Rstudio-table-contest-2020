@@ -1,0 +1,38 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Data Ramblings",
+    "description": "Welcome to our new blog, Data Ramblings. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-01-23",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-01-23T10:32:10-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-01-23-counting-in-time-intervals/",
+    "title": "Counting in Time Intervals",
+    "description": "Tackling the common task of counting concurrent events with start and end times in R.",
+    "author": [
+      {
+        "name": "Kevin Kent",
+        "url": {}
+      }
+    ],
+    "date": "2021-01-23",
+    "categories": [],
+    "contents": "\nHave you ever had a dataset with start and end times for events where you wanted to know how many events were occuring simultaneously a given timestamp?\nThis has come up many times for me, both in my professional work as well as in questions on the R4DS slack community, where I am a mentor. I would guess that this is a common data wrangling problem for anyone working with this type of data.\nMotivating Example\nLet’s create a toy dataset of login and logout times, where we want to know how many users were logged in simultaneously during a given minute.\n\n\n\nGenerate Datetime Sequence\nNow I’ll generate a datetime sequence for each login and logout event. The most straightforward way to do this is to map through each start and end time with the seq function.\n\n\n\nExpand\nThe next step is to expand or unnest these datetime sequences into a long format.\n\n# A tibble: 23,240 x 4\n   event_num login               logout             \n   <chr>     <dttm>              <dttm>             \n 1 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 2 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 3 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 4 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 5 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 6 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 7 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 8 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n 9 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n10 session_1 2021-01-01 17:00:00 2021-01-16 15:00:00\n# … with 23,230 more rows, and 1 more variable: dt <dttm>\n\nGreat! Now the dt column has all the minutes that each session was active expanded in a tidy format.\nVisualizing\nLet’s see how many concurrent sessions there were over time.\n\n\n\nThat’s it! I’d love to hear what you think and if you have another way of solving this problem.\n\n\n\n",
+    "preview": "posts/2021-01-23-counting-in-time-intervals/counting-in-time-intervals_files/figure-html5/unnamed-chunk-4-1.png",
+    "last_modified": "2021-01-23T10:48:52-05:00",
+    "input_file": "counting-in-time-intervals.utf8.md",
+    "preview_width": 1248,
+    "preview_height": 768
+  }
+]

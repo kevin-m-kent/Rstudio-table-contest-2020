@@ -1,0 +1,82 @@
+---
+title: "Counting in Time Intervals"
+description: |
+  Tackling the common task of counting concurrent events with start and end times in R.
+author:
+  - name: Kevin Kent
+date: 01-23-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Have you ever had a dataset with start and end times for events where you wanted to know how many events were occuring simultaneously a given timestamp? 
+
+This has come up many times for me, both in my professional work as well as in questions on the R4DS slack community, where I am a mentor. I would guess that this is a common data wrangling problem for anyone working with this type of data.
+
+# Motivating Example
+
+Let's create a toy dataset of login and logout times, where we want to know how many users were logged in simultaneously during a given minute.
+
+```{r, warning= FALSE, message= FALSE}
+
+library(tidyverse)
+library(lubridate)
+
+starting_times <- seq(from = as_datetime("2021-01-01 00:00:00"), to = as_datetime("2021-01-10 00:00:00"), by = "hour")
+
+ending_times <- seq(from = as_datetime("2021-01-10 00:00:00"), to = as_datetime("2021-01-20 00:00:00"), by = "hour")
+
+event_data <- tibble(event_num = paste0("session_", seq(1, 100, by = 1)), login = sample(starting_times, 100), logout =  sample(ending_times, 100))
+
+```
+
+# Generate Datetime Sequence
+
+Now I'll generate a datetime sequence for each login and logout event. The most straightforward way to do this is to map through each start and end time with the seq function.
+
+```{r}
+
+library(purrr)
+
+event_data_seq <- event_data %>%
+  mutate(dt_sequences = map2(login, logout, seq, by = "hour"))
+
+```
+
+# Expand
+
+The next step is to expand or unnest these datetime sequences into a long format. 
+
+```{r}
+
+event_data_expanded <- event_data_seq %>%
+  unnest(dt_sequences) %>%
+  rename(dt = dt_sequences)
+
+event_data_expanded 
+
+```
+
+Great! Now the dt column has all the minutes that each session was active expanded in a tidy format.
+
+# Visualizing
+
+Let's see how many concurrent sessions there were over time.
+
+```{r}
+
+event_data_expanded %>%
+  count(dt) %>%
+  ggplot(aes(dt, n)) + geom_col() + labs(title = "How many concurrent sessions were there over time?")
+
+```
+
+That's it! I'd love to hear what you think and if you have another way of solving this problem.
+
+
